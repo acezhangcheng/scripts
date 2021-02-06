@@ -1,0 +1,7 @@
+hostname = dkd-api.dysdk.com
+
+#获取多看点Cookie(by肥皂）
+^http:\/\/dkd-api\.dysdk\.com\/user\/index url script-request-body https://raw.githubusercontent.com/age174/-/main/dkd.js
+
+#获取多看点提现Cookie(by肥皂）
+^http:\/\/dkd-api\.dysdk\.com\/money\/withdraw_do? url script-request-body https://raw.githubusercontent.com/age174/-/main/dkd.js
